@@ -1,0 +1,71 @@
+/* ************ Header Section *********************** */
+
+.Header {
+    background: #181818;
+    color: white;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 200000;
+}
+
+
+/* ************ Left Section of the header *********************** */
+
+.Header .Header_left .Header_left_menu_icon {
+    cursor: pointer;
+}
+
+.Header .Header_left .Youtube-icon {
+    margin-left: 20px;
+}
+
+
+/* ************ Middle Section of the header *********************** */
+
+.Header .Header_middle {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.Header .Header_middle input {
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 10px;
+    background: black;
+    color: white;
+}
+
+.Header .Header_middle .Header_middle_search_icon {
+    background: rgb(46, 38, 38);
+    cursor: pointer;
+    padding: 5px;
+    width: 60px;
+}
+
+.Header .Header_middle .Header_middle_mic_icon {
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+
+/* ************ Right Section of the header *********************** */
+
+.Header .Header_right {
+    display: flex;
+    align-items: center;
+}
+
+.Header .Header_right svg {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.Header .Header_right img {
+    cursor: pointer;
+}
