@@ -1,0 +1,29 @@
+/* ************* SidebarRow Section ****************** */
+
+.SidebarRow {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    opacity: 0.8;
+}
+
+.SidebarRow:hover {
+    background: rgb(55, 52, 52);
+    cursor: pointer;
+}
+
+.SidebarRow_active {
+    background: rgb(55, 52, 52);
+    opacity: 1;
+}
+
+.SidebarRow .SidebarRow_title {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.SidebarRow:hover .SidebarRow_title {
+    font-weight: bold;
+}

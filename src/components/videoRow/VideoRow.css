@@ -1,0 +1,61 @@
+.VideoRow {
+    display: flex;
+    cursor: pointer;
+}
+
+.VideoRow .VideoRow_image {
+    margin: 20px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 180px;
+}
+
+.VideoRow .videoRow_info {
+    color: rgba(255, 255, 255, 0.838);
+    margin-top: 18px;
+}
+
+.VideoRow .videoRow_info h4 {
+    color: rgba(255, 255, 255, 0.927);
+    font-weight: bold;
+}
+
+.VideoRow .videoRow_info p {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.VideoRow .channel_info {
+    display: flex;
+    align-items: center;
+}
+
+.VideoRow .channel_info p {
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.VideoRow .description {
+    margin-right: 50px;
+}
+
+.VideoRow .videowRow_badge {
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .VideoRow {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .VideoRow .videoRow_info {
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    .VideoRow .VideoRow_image {
+        margin-bottom: 0;
+    }
+}

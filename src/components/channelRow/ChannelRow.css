@@ -1,0 +1,63 @@
+.ChannelRow {
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0.8;
+    border-bottom: 1px solid gray;
+}
+
+.ChannelRow .channel {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.ChannelRow .channelRow_avatar {
+    height: 120px;
+    width: 120px;
+    margin-right: 20px;
+}
+
+.ChannelRow .channelRow_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.ChannelRow .channelRow_info>p {
+    font-size: small;
+}
+
+.ChannelRow .channelRow_subscribe {
+    display: none;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.ChannelRow .channel h3 {
+    text-transform: capitalize;
+}
+
+.channelRow_subscribe .subscribedBtn {
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 110px;
+    padding: 10px;
+    outline-width: 0;
+    border: none;
+    border-radius: 2px;
+    background: rgb(55, 46, 46);
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.channelRow_subscribe .notificationIcon {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (min-width: 750px) {
+    .ChannelRow .channelRow_subscribe {
+        display: flex;
+    }
+}

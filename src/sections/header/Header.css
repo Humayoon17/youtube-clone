@@ -1,9 +1,8 @@
 /* ************ Header Section *********************** */
 
 .Header {
-    background: #181818;
-    color: white;
     display: flex;
+    background-color: #181818;
     padding: 20px;
     justify-content: space-between;
     align-items: center;
@@ -21,6 +20,7 @@
 
 .Header .Header_left .Youtube-icon {
     margin-left: 20px;
+    color: white;
 }
 
 
@@ -43,6 +43,7 @@
 
 .Header .Header_middle .Header_middle_search_icon {
     background: rgb(46, 38, 38);
+    color: white;
     cursor: pointer;
     padding: 5px;
     width: 60px;

@@ -1,0 +1,7 @@
+.Main {
+    flex: 0.8;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}

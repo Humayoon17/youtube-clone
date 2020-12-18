@@ -1,0 +1,21 @@
+.SearchPage {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+.SearchPage .latest_videos>p {
+    text-transform: capitalize;
+    display: inline;
+}
+
+.SearchPage .latest_videos {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.SearchPage .searchPage_line {
+    border: 1px solid rgb(92, 89, 89);
+    margin-left: 20px;
+}
